@@ -13,7 +13,7 @@ copy()
   fi
 
   if [ -n "$file" ] ; then
-    cp $file $WDIR/$file	
+    cp $file $WDIR/$file
   else
     echo "Missing required file: $1 for directory $2"
     rm -rf $WDIR
@@ -27,7 +27,7 @@ binfiles="cat ls mkdir mknod mount bash "
 binfiles="$binfiles umount sed sleep ln rm uname grep hostname"
 binfiles="$binfiles readlink basename chmod "
 
-sbinfiles="ip halt ifconfig dropbear rdmsr wrmsr"
+sbinfiles="halt ifconfig dropbear rdmsr wrmsr"
 
 unsorted=$(mktemp /tmp/unsorted.XXXXXXXXXX)
 
