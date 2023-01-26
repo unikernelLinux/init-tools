@@ -27,7 +27,7 @@ binfiles="cat ls mkdir mknod mount bash "
 binfiles="$binfiles umount sed sleep ln rm uname grep hostname"
 binfiles="$binfiles readlink basename chmod "
 
-sbinfiles="halt ifconfig dropbear rdmsr wrmsr"
+sbinfiles="halt dropbear rdmsr wrmsr"
 
 unsorted=$(mktemp /tmp/unsorted.XXXXXXXXXX)
 
