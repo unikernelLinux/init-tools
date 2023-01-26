@@ -102,6 +102,8 @@ done
 
 cp -r ./perf $WDIR/
 
+cp ./myredis.conf $WDIR/
+
 rm -f $unsorted
 
 pushd $WDIR
