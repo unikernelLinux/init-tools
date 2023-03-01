@@ -24,7 +24,7 @@ copy()
 printf "Creating initramfs structure ... "
 
 binfiles="cat ls mkdir mknod mount bash "
-binfiles="$binfiles umount sed sleep ln rm uname grep hostname"
+binfiles="$binfiles umount sed sleep ln rm uname grep "
 binfiles="$binfiles readlink basename chmod "
 
 sbinfiles="halt dropbear rdmsr wrmsr"
